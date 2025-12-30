@@ -46,7 +46,7 @@ void dfs(ll x, ll y)
     }
 }
 
-int main()
+int main() // dfs/bfs
 {
     cin >> h >> w;
 
