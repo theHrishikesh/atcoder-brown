@@ -46,7 +46,7 @@ void dfs(ll x, ll y)
     }
 }
 
-int main() // dfs/bfs
+int main() // dfs/bfs grid
 {
     cin >> h >> w;
 
