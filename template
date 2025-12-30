@@ -13,6 +13,6 @@ void setIO(string s)
   freopen((s + ".in").c_str(), "r", stdin);
   freopen((s + ".out").c_str(), "w", stdout);
 }
-#define Test int testcases; cin >> testcasese; while(testcases--)
+#define Test int testcases; cin >> testcases; while(testcases--)
 #define dbg(...) cout << #__VA_ARGS__ << " = ", _print(__VA_ARGS__)
 #define ll long long
