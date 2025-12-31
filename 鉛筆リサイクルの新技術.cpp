@@ -25,33 +25,12 @@ int main()
     ll batchsize, newperbatch, current;
     cin >> batchsize >> newperbatch >> current;
 
-    ll batches , recycled;
-    ll later = 0;
-
     ll ans = current;
-    while (true)
+    ll wornout = current;
+    while (wornout >= batchsize)
     {
-
-        batches = current / batchsize;
-        later += current % batchsize;
-        recycled = (batches * newperbatch);
-
-        
-        if (recycled == 0 && later < batchsize)
-        {
-            break;
-        }
-        else if (recycled == 0 && later >= batchsize)
-        {
-
-            current = later;
-            later = 0;
-            continue;
-        }
-        
-        ans += recycled;
-        current = recycled;
-
+        ans += newperbatch;
+        wornout = wornout - batchsize + newperbatch;
     }
 
     cout << ans << '\n';
