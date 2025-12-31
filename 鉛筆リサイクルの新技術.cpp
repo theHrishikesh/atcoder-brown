@@ -28,15 +28,14 @@ int main()
     ll batches , recycled;
     ll later = 0;
 
-    ll itr = 0;
     ll ans = current;
     while (true)
     {
-        //cout << "current: " << current << '\n';
+
         batches = current / batchsize;
         later += current % batchsize;
         recycled = (batches * newperbatch);
-        //cout << "recycled: " << recycled << " and left over: "<< later << '\n';
+
         
         if (recycled == 0 && later < batchsize)
         {
@@ -44,7 +43,7 @@ int main()
         }
         else if (recycled == 0 && later >= batchsize)
         {
-            //cout << "inside: " << endl;
+
             current = later;
             later = 0;
             continue;
@@ -52,7 +51,7 @@ int main()
         
         ans += recycled;
         current = recycled;
-        //cout << "sum : " << ans << '\n';
+
     }
 
     cout << ans << '\n';
