@@ -20,12 +20,12 @@ void setIO(const char* s) {
 using ll = long long;
 
 
-static const ll maxn = 100001;
+static const ll maxn = 100005;
 static ll a[maxn];
+static ll cnt[maxn];
 int main() 
 {
     ll n; cin >> n;
-    map<ll,ll>cnt;
     for (ll i = 0; i < n; i++)
     {
         cin >> a[i];
@@ -35,9 +35,9 @@ int main()
     }
 
     ll ans = 0;
-    for (auto [k,v] : cnt)
+    for (ll i = 0; i < maxn; i++)
     {
-        ans = max(ans, v);
+        ans = max(ans, cnt[i]);
     }
 
     cout << ans << '\n';
