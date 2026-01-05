@@ -1,5 +1,5 @@
-I solve all the Brown problems in CF from easiest to hardest and upload its solutions here.
-Below is my contest template which I use for live contests. Some solutions may be uploaded in this template format.
+//I solve all the Brown problems in CF from easiest to hardest and upload its solutions here.
+//Below is my contest template which I use for live contests. Some solutions may be uploaded in this template format.
 
 #pragma GCC optimize(2)
 #pragma GCC optimize("Ofast")
