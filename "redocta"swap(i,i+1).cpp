@@ -16,10 +16,6 @@ void setIO(string s)
 #define Test int testcases; cin >> testcases; while(testcases--)
 using ll = long long;
 
-
-
-
-
 int main()
 {
     string s;
