@@ -28,9 +28,12 @@ int main()
 {
     ll n; cin >> n;
     x[0] = 0;
+    
     for (ll i = 0; i < n; i++) cin >> x[i];
+    
     p[0] = 0;
     for (ll i = 0; i < n; i++) cin >> p[i];
+    
     pref[0] = 0;
     for (ll i = 0; i < n; i++) pref[i + 1] = pref[i] + p[i];
 
