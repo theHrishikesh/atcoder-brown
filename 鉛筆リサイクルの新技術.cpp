@@ -19,7 +19,6 @@ void setIO(const char* s) {
 #define ll long long
 #define Test int testcases; cin >> testcases; while(testcases--)
 
-
 int main()
 {
     ll batchsize, newperbatch, current;
