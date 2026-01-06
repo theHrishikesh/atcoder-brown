@@ -875,7 +875,53 @@ vector<T> operator+(const vector<T>& x, const vector<T>& y) {
     return r;
 }
 
+ll n, pidx , qidx;
+vll p;
+vll q;
+vll curr;
+vbl used;
+vvll perm;
+ll cnt = 0;
+
+void dfs()
+{
+    if (len(curr) == n)
+    {
+        perm.pb(curr);
+        cnt++;
+        if (curr == p) pidx = cnt;
+        if (curr == q) qidx = cnt;
+        return ;
+    }
+    for (ll i = 1; i <= n; i++)
+    {
+        if (!used[i])
+        {
+            used[i] = true;
+            curr.pb(i);
+            dfs();
+            curr.pop_back();
+            used[i] = false;
+        }
+    }
+
+}
+
 int main()
+{
+    in(n);
+    p.resize(n); rep(n) in(p[i]);
+    q.resize(n); rep(n) in(q[i]);
+ 
+    used.assign(n + 1,false);
+    dfs();
+
+    out(abs(pidx - qidx));
+    
+}
+
+
+/* int main()
 {
     sll(n);
     svll(n,p);
@@ -899,4 +945,4 @@ int main()
     } while (next_permutation(all(v)));
     
     out(abs(porder - qorder));
-}
+} */
