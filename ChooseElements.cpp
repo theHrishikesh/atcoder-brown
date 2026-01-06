@@ -19,7 +19,6 @@ void setIO(const char* s) {
 #define ll long long
 #define Test int testcases; cin >> testcases; while(testcases--)
 
-
 static const ll maxn = 200005;
 static ll a[maxn];
 static ll b[maxn];
