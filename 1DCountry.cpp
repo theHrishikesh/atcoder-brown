@@ -19,11 +19,11 @@ void setIO(const char* s) {
 #define Test int testcases; cin >> testcases; while(testcases--)
 using ll = long long;
 
-
 static const ll maxn = 200005;
 static ll x[maxn];
 static ll p[maxn];
 static ll pref[maxn];
+
 int main() 
 {
     ll n; cin >> n;
