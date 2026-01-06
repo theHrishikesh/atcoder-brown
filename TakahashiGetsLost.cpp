@@ -7,7 +7,6 @@ struct IoSetup {
         cin.tie(nullptr);
     }
 } iosetup;
-
 using ll = long long;
 
 int main()
