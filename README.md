@@ -6,6 +6,7 @@ List of stuff I learnt so far.
 
 3) Beatty-type sequences
 
+4) ⌊x⌋≤m =====> x < m + 1
 
 
   
