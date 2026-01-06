@@ -290,6 +290,7 @@ int main()
     svll(n,a);
 
     setll valid_t;
+
     map<pll,vll>mp;
     rep(i,0,n)
     {
