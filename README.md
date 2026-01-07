@@ -8,5 +8,11 @@ List of stuff I learnt so far.
 
 4) ⌊x⌋≤m =====> x < m + 1
 
+5) Standard Subsequence check
+
+6) FPS
+
+7) Bit enumeration
+
 
   
