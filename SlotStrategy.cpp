@@ -896,8 +896,6 @@ mint nCr(ll n, ll r) {
     return fact[n] * invfact[r] * invfact[n - r];
 }
 
-
-
 int main() 
 {
     sll(n);
