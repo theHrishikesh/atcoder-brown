@@ -1,4 +1,4 @@
-List of stuff I learnt so far.
+#Concept needed to crack Brown Problems#
 
 1) Floor, Ceil, Absolute value Inequality Translation
 
