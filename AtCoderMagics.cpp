@@ -1021,26 +1021,25 @@ vector<T> operator+(const vector<T>& x, const vector<T>& y) {
 int main() 
 {
     sll(n);
-    vector<array<ll,3>> cor(n);
+    V<A<ll,3>> rank;
     rep(n)
     {
-        in(cor[i][0],cor[i][1]);
-        cor[i][2] = i;
+        sll(a,c);
+        rank.pb({a,c,i + 1});
     }
-    sort(all(cor),greater<>());
-    ll mincost = 1e9;
-    vll valid;
+    desc(rank);
+    ll mini = INF;
+    vll ans;
     rep(i,0,n)
     {
-        if (cor[i][1] < mincost)
+        if (rank[i][1]< mini)
         {
-            mincost = cor[i][1];
-            valid.pb(cor[i][2] + 1);
+            ans.pb(rank[i][2]);
+            chmin(mini,rank[i][1]);
         }
     }
-
-    sort(all(valid));
-    out(len(valid));
-    out(valid);
+    out(len(ans));
+    asc(ans);
+    out(ans);
 }
 
