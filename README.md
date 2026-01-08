@@ -26,6 +26,8 @@
 
 13) Inverse of permutation
 
+14) LAP DP
+
 
 Important Resources I came across while doing Brown Problem:
 1) For knowing imp math concepts for CP: https://manabitimes.jp/math
