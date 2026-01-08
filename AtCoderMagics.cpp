@@ -1018,7 +1018,7 @@ vector<T> operator+(const vector<T>& x, const vector<T>& y) {
     return r;
 }
 
-signed main() 
+int main() 
 {
     sll(n);
     vector<array<ll,3>> cor(n);
