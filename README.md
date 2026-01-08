@@ -22,11 +22,13 @@
 
 11) DSU and Weighted DSU
 
-12) Fenwick Tree (for inversion counting)
+12) Fenwick Tree (for inversion counting) or Merge Sort
 
 13) Inverse of permutation
 
 14) LAP DP
+
+15) Skyline Dominance Technique
 
 
 Important Resources I came across while doing Brown Problem:
