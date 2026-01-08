@@ -919,9 +919,9 @@ int main()
         }
         */
 
-        ll ans = 1;
-        ll mini = p[n - 1];
-        rrep(i,0,n - 1)
+        ll ans = 0;
+        ll mini = INF;
+        rrep(i,0,n)
         {
             if (p[i] < mini)
             {
