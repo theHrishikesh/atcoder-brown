@@ -18,5 +18,9 @@ List of stuff I learnt so far.
 
 9) Toposort (Khans Algorithm)
 
+10) Sieve of Eratosthenes
+
+11) 
+
 
   
