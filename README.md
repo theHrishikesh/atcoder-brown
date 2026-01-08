@@ -31,6 +31,8 @@ Important Resources I came across while doing Brown Problem:
 1) For knowing imp math concepts for CP: https://manabitimes.jp/math
 2) Weighted DSU : https://qiita.com/drken/items/cce6fc5c579051e64fab
 3) For understanding permutations: https://nor-blog.pages.dev/posts/2023-01-09-permutations-for-beginners/
+4) Linear sieve: https://rsk0315.github.io/library-rs/nekolib/math/struct.LinearSieve.html , https://atcoder.jp/contests/abc254/editorial/4079
+5) 
 
 
 
