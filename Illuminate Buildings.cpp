@@ -903,14 +903,15 @@ int main()
 
     vvll dp(n,vll(n,1));
     ll ans = 1;
+
     for(ll i = 0; i < n; i++)
     {
-        for(ll j = 1; i + j < n; j++)
+        for(ll j = 0; j < i; j++)
         {
-            if (h[i + j] == h[i])
+            if (h[i] == h[j])
             {
-                dp[i + j][j] = dp[i][j] + 1;
-                chmax(ans,dp[i + j][j]);
+                dp[i][i - j] = dp[j][i - j] + 1;
+                chmax(ans,dp[i][i - j]);
             }
         }
     }
