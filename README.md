@@ -27,4 +27,11 @@
 13) Inverse of permutation
 
 
+Important Resources I came across while doing Brown Problem:
+1) For knowing imp math concepts for CP: https://manabitimes.jp/math
+2) Weighted DSU : https://qiita.com/drken/items/cce6fc5c579051e64fab
+3) For understanding permutations: https://nor-blog.pages.dev/posts/2023-01-09-permutations-for-beginners/
+
+
+
   
