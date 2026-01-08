@@ -38,6 +38,9 @@ Important Resources I came across while doing Brown Problem:
 4) Linear sieve: https://rsk0315.github.io/library-rs/nekolib/math/struct.LinearSieve.html , https://atcoder.jp/contests/abc254/editorial/4079
 5) FPS:
 https://maspypy.com/category/%e5%bd%a2%e5%bc%8f%e7%9a%84%e3%81%b9%e3%81%8d%e7%b4%9a%e6%95%b0%e8%a7%a3%e8%aa%ac
+6) For skyline dominance technqiue:
+  https://leetcode.com/problems/number-of-visible-people-in-a-queue/
+
 
 
 
