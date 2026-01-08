@@ -1,26 +1,30 @@
 List of stuff I learnt so far.
 
-1) y = floor(f(x))  =====>  y <= f(x) < y + 1
+1) Floor, Ceil, Absolute value Inequality Translation
 
 2) Pigeonhole principle
 
-3) Beatty-type sequences
+3) Binary Searching on Beatty-type sequences type problems
 
-4) ⌊x⌋≤m =====> x < m + 1
+4) Standard Subsequence check 
 
-5) Standard Subsequence check
+5) FPS
 
-6) FPS
+6) Bit enumeration
 
-7) Bit enumeration
+7) DP on DAG
 
-8) DP on DAG
+8) Toposort (Khans Algorithm)
 
-9) Toposort (Khans Algorithm)
+9) Sieve of Eratosthenes
 
-10) Sieve of Eratosthenes
+10) DFS / BFS / Djikstra
 
-11) 
+11) DSU and Weighted DSU
+
+12) Fenwick Tree (for inversion counting)
+
+13) Inverse of permutation
 
 
   
