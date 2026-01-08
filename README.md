@@ -14,5 +14,9 @@ List of stuff I learnt so far.
 
 7) Bit enumeration
 
+8) DP on DAG
+
+9) Toposort (Khans Algorithm)
+
 
   
