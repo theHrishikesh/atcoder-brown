@@ -884,7 +884,9 @@ int main()
     {
         mp[s[i]]++;
     }
+    
     ll ok = 0;
+    
     if (mp['N'])
     {
         ok--;
