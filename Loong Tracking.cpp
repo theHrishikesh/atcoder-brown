@@ -1062,8 +1062,10 @@ ll Comb(ll n, ll r, ll MOD = 998244353) {
 int main() 
 {
     sll(n,q);
+
     deque<array<ll,2>>dq;
     rep(n) dq.pb({i + 1,0});
+
     map<char,array<ll,2>>mp;
     mp['D'] = {0,-1};
     mp['U'] = {0,1};
