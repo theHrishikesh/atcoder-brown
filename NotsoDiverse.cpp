@@ -885,6 +885,7 @@ int main()
 
     map<ll,ll> cnt;
     rep(n) cnt[a[i]]++;
+    
     vll rle;
     each(k,v,cnt)
     {
