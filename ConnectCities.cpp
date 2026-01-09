@@ -875,7 +875,6 @@ vector<T> operator+(const vector<T>& x, const vector<T>& y) {
     return r;
 }
 
-
 int main()
 {
     sll(n,m);
