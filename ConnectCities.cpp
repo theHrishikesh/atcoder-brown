@@ -124,7 +124,6 @@ using setll = set<ll>;
 using setstr = set<string>;
 using usetpll = unordered_set<pll>;
 using usetpii = unordered_set<pii>;
-// *** Stack shortcuts ***
 using stkint = stack<int>;
 using stkll = stack<ll>;
 using stkpii = stack<pii>;
