@@ -896,27 +896,6 @@ mint nCr(ll n, ll r) {
     return fact[n] * invfact[r] * invfact[n - r];
 } */
 
-
-V<A<ll,2>> run_length_encode(string x)
-{
-    ll curr = 1;
-    V<A<ll,2>> ans;
-    rep(i,1,len(x))
-    {
-        if (x[i] == x[i - 1])
-        {
-            curr++;
-        }
-        else
-        {
-            ans.pb({x[i - 1],curr});
-            curr = 1;
-        }
-    }
-    ans.pb({x[len(x) - 1],curr});
-    return ans;
-}
-
 int main() 
 {
     sll(n);
