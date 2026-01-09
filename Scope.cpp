@@ -921,35 +921,40 @@ int main()
 {
     sstr(s);
     ll n = len(s);
-    vch stk;
-    vbl instack(26,0);
+    stack<ll>stk;
+
+    map<char,bool>mp;
     rep(i,0,n)
     {
         if (s[i] == ')')
         {
-            while(!stk.empty() && stk.back() != '(' )
+            while(!stk.empty() && s[stk.top()] != '(' )
             {
-                instack[stk.back() - 'a'] = 0;
-                stk.pop_back();
+                ll idx = stk.top();
+                stk.pop();
+                if ('a' <= s[idx] && s[idx] <= 'z')
+                {
+                    mp[s[idx]] = 0;
+                }
             }
-            if (!stk.empty()) stk.pop_back();
+            if (!stk.empty()) stk.pop();
         }
-        elif (s[i] == '(')
+        elif ('a' <= s[i] && s[i] <= 'z')
         {
-            stk.pb(s[i]);
-        }
-        else
-        {
-            if (instack[s[i] - 'a'])
+            if (mp[s[i]] == 0)
+            {
+                mp[s[i]] = 1;
+            }
+            else
             {
                 out("No");
                 return 0;
             }
-            else
-            {
-                instack[s[i] - 'a'] = 1;
-                stk.pb(s[i]);
-            }
+            stk.push(i);
+        }
+        else
+        {
+            stk.push(i);
         }
     }
     out("Yes");
