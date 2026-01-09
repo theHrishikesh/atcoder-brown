@@ -922,3 +922,32 @@ int main()
         out(len(cycle));
         out(cycle);
 }
+/* 
+int main()
+{
+    sll(n);
+    SCC graph(n + 1);
+    
+    vll a(n + 1);
+    rep(i,1,n + 1)
+    {
+        in(a[i]);
+        graph.add_edge(i,a[i]);
+    }
+    vvll scc = graph.scc();
+    each(v, scc)
+    {
+        if (len(v) == 1) continue;
+
+        ll now = v[0];
+
+        out(len(v));
+        rep(i,0,len(v))
+        {
+            out(now);
+            now = a[now];
+        }
+        return 0;
+    }
+}
+ */
