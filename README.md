@@ -34,6 +34,8 @@
 
 17) Modular Arithmetic
 
+18) Reachability DP (boolean DP) with bitset optimization (also known as partial sum dp or subset dp)
+
 
 Important Resources I came across while doing Brown Problem:
 1) For knowing imp math concepts for CP: https://manabitimes.jp/math
@@ -44,6 +46,8 @@ Important Resources I came across while doing Brown Problem:
 https://maspypy.com/category/%e5%bd%a2%e5%bc%8f%e7%9a%84%e3%81%b9%e3%81%8d%e7%b4%9a%e6%95%b0%e8%a7%a3%e8%aa%ac
 6) For skyline dominance technqiue:
   https://leetcode.com/problems/number-of-visible-people-in-a-queue/
+7) For partial sum dp or reachability dp, refer to this article:
+  https://qiita.com/drken/items/a5e6fe22863b7992efdb
 
 
 
