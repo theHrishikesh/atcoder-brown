@@ -933,3 +933,23 @@ int main()
     else out("No");
 
 }
+//Using Bitset Optimization
+/* int main()
+{
+    sll(n,x);
+
+    vll a(n + 1),b(n + 1);
+    rep(i,1,n + 1) in(a[i], b[i]);
+    
+    bitset<10001> dp;
+    
+    dp[0] = 1;
+    rep(i,1,n + 1)
+    {
+        dp = (dp << a[i]) | (dp << b[i]);
+    }
+
+    if (dp[x]) out("Yes");
+    else out("No");
+
+} */
