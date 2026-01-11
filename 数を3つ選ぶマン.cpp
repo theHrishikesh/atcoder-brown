@@ -908,14 +908,19 @@ int main()
     sll(a, b, c, d, e);
     vll num = {a,b,c,d,e};
     vll ans;
-    for (ll i = 0; i < 3; ++i)
+    for (ll mask = 0; mask < (1LL << 5); mask++)
     {
-        for (ll j = i + 1; j < 4; ++j)
+        if (__builtin_popcountll(mask) == 3)
         {
-            for (ll k = j + 1; k < 5; ++k)
+            ll s = 0;
+            for (ll i = 0; i < 5; i++)
             {
-                ans.pb(num[i] + num[j] + num[k]);
+                if (mask & (1LL << i))
+                {
+                    s += num[i];
+                }
             }
+            ans.pb(s);
         }
     }
     desc(ans);
