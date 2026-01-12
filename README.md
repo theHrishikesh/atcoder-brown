@@ -36,6 +36,9 @@
 
 18) Reachability DP (boolean DP) with bitset optimization (also known as partial sum dp or subset dp)
 
+19) Universal Problem solving heurestic:
+Try to express the local constraints in terms of the invariants and try to connect it with the global constraints.
+
 
 Important Resources I came across while doing Brown Problem:
 1) For knowing imp math concepts for CP: https://manabitimes.jp/math
