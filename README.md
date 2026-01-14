@@ -39,6 +39,11 @@
 19) Universal Problem solving heurestic:
 Try to express the local constraints in terms of the invariants and try to connect it with the global constraints.
 
+20) Linear Congrunece Theorem (vimp with geometrical meaning)
+
+21) Wavelet Trees (only in 1 question, that too mentioned as an alternate approach)
+
+
 
 Important Resources I came across while doing Brown Problem:
 1) For knowing imp math concepts for CP: https://manabitimes.jp/math
