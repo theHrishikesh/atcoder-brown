@@ -43,6 +43,8 @@ Try to express the local constraints in terms of the invariants and try to conne
 
 21) Wavelet Trees (only in 1 question, that too mentioned as an alternate approach)
 
+22) Greedy Exchange Arguments ; Structural Opimization ; Dominance = > Make10.cpp and Ice Tea Store.cpp
+
 
 
 Important Resources I came across while doing Brown Problem:
