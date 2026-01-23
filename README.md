@@ -45,6 +45,8 @@ Try to express the local constraints in terms of the invariants and try to conne
 
 22) Greedy Exchange Arguments ; Structural Opimization ; Dominance = > Make10.cpp and Ice Tea Store.cpp
 
+23) Subsequence DP ; Pascals Triangle intuition
+
 
 
 Important Resources I came across while doing Brown Problem:
