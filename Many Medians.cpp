@@ -180,6 +180,7 @@ inline void in(Head &head, Tail &...tail) {
     scan(head);
     in(tail...);
 }
+
 //print functions
 inline void print(const bool &a) { std::cout << a; }
 inline void print(const int &a) { std::cout << a; }
