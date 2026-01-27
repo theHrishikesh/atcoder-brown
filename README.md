@@ -55,6 +55,8 @@ Try to express the local constraints in terms of the invariants and try to conne
 
 27) Order Statistics Tree
 
+28) Lazy Segment Tree
+
 
 
 
