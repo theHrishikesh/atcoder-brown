@@ -57,6 +57,8 @@ Try to express the local constraints in terms of the invariants and try to conne
 
 28) Lazy Segment Tree
 
+29) Recursive Functions for complete search
+
 
 
 
@@ -72,6 +74,7 @@ https://maspypy.com/category/%e5%bd%a2%e5%bc%8f%e7%9a%84%e3%81%b9%e3%81%8d%e7%b4
 7) For partial sum dp or reachability dp, refer to this article:
   https://qiita.com/drken/items/a5e6fe22863b7992efdb
 8) For Pigeonhole Principle: https://youtu.be/O3krHAFyxH4?si=8d3Q2UUUJb6zN3i0
+9) https://drken1215.hatenablog.com/entry/2020/05/04/190252
 
 
 
