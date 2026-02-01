@@ -1,83 +1,138 @@
-#Concept needed to crack Brown Problems#
+# 📘 Concepts Needed to Crack **Brown Problems**
 
-1) Floor, Ceil, Absolute value Inequality Translation
+This repository documents the **algorithms, mathematical tools, data structures, and heuristics**
+that repeatedly appeared while solving **Brown-level competitive programming problems**.
 
-2) Pigeonhole principle
+Think of this as a **revision checklist + concept index**, not a linear syllabus.
 
-3) Binary Searching on Beatty-type sequences type problems
+---
 
-4) Standard Subsequence check 
+## 🧠 Core Mathematical & Logical Tools
 
-5) FPS
+1. Floor / Ceil / Absolute Value Inequality Translation  
+2. Pigeonhole Principle  
+3. Modular Arithmetic  
+4. Linear Congruence Theorem *(very important — strong geometric meaning)*  
+5. Inverse of a Permutation  
+6. Run Length Encoding (RLE)
 
-6) Bit enumeration
+---
 
-7) DP on DAG
+## 🔍 Search & Enumeration Techniques
 
-8) Toposort (Khans Algorithm)
+7. Binary Search on Beatty-type Sequences  
+8. Bit Enumeration  
+9. Recursive Functions for Complete Search  
 
-9) Sieve of Eratosthenes
+---
 
-10) DFS / BFS / Djikstra
+## 📐 Dynamic Programming (DP)
 
-11) DSU and Weighted DSU
+10. DP on DAG  
+11. Subsequence DP *(Pascal’s Triangle intuition)*  
+12. LAP DP  
+13. Reachability DP (Boolean DP)  
+    - Bitset optimization  
+    - Also known as partial sum DP / subset DP  
 
-12) Fenwick Tree (for inversion counting) or Merge Sort
+---
 
-13) Inverse of permutation
+## 🌳 Graph Algorithms
 
-14) LAP DP
+14. DFS / BFS / Dijkstra  
+15. Topological Sort (Kahn’s Algorithm)
 
-15) Skyline Dominance Technique
+---
 
-16) Run Length Encoding
+## 🧮 Number Theory & Precomputation
 
-17) Modular Arithmetic
+16. Sieve of Eratosthenes  
+17. Linear Sieve  
+18. FPS (Formal Power Series)
 
-18) Reachability DP (boolean DP) with bitset optimization (also known as partial sum dp or subset dp)
+---
 
-19) Universal Problem solving heurestic:
-Try to express the local constraints in terms of the invariants and try to connect it with the global constraints.
+## 🧰 Data Structures
 
-20) Linear Congrunece Theorem (vimp with geometrical meaning)
+19. DSU (Disjoint Set Union)  
+20. Weighted DSU  
+21. Fenwick Tree (BIT) – inversion counting  
+22. Merge Sort – inversion counting  
+23. Segment Tree  
+24. Lazy Segment Tree  
+25. Order Statistics Tree  
+26. Wavelet Tree *(appeared once; alternate approach)*
 
-21) Wavelet Trees (only in 1 question, that too mentioned as an alternate approach)
+---
 
-22) Greedy Exchange Arguments ; Structural Opimization ; Dominance = > Make10.cpp and Ice Tea Store.cpp
+## 📊 Classical Algorithmic Patterns
 
-23) Subsequence DP ; Pascals Triangle intuition
+27. Largest Area in Histogram  
+28. Skyline / Dominance Technique  
+29. Greedy Exchange Arguments  
+    - Structural Optimization  
+    - Dominance  
+    - Examples: `Make10.cpp`, `Ice Tea Store.cpp`
 
-24) Largest Area in Histogram Problem
+---
 
-25) Segment Tree
+## 🧭 Universal Problem-Solving Heuristic
 
-26) Fenwick Tree
+> **Express local constraints in terms of invariants,  
+> then connect them to global constraints.**
 
-27) Order Statistics Tree
+This idea explains why many seemingly ad-hoc solutions work.
 
-28) Lazy Segment Tree
+---
 
-29) Recursive Functions for complete search
+# 📚 Important Resources
 
+## 📐 Mathematics & Theory
 
+- Competitive Programming Math Concepts  
+  https://manabitimes.jp/math
 
+### Pigeonhole Principle (Visual Intuition)
+[![Pigeonhole Principle Explanation](https://img.youtube.com/vi/O3krHAFyxH4/0.jpg)](https://www.youtube.com/watch?v=O3krHAFyxH4)
 
-Important Resources I came across while doing Brown Problem:
-1) For knowing imp math concepts for CP: https://manabitimes.jp/math
-2) Weighted DSU : https://qiita.com/drken/items/cce6fc5c579051e64fab
-3) For understanding permutations: https://nor-blog.pages.dev/posts/2023-01-09-permutations-for-beginners/
-4) Linear sieve: https://rsk0315.github.io/library-rs/nekolib/math/struct.LinearSieve.html , https://atcoder.jp/contests/abc254/editorial/4079
-5) FPS:
-https://maspypy.com/category/%e5%bd%a2%e5%bc%8f%e7%9a%84%e3%81%b9%e3%81%8d%e7%b4%9a%e6%95%b0%e8%a7%a3%e8%aa%ac
-6) For skyline dominance technqiue:
+- Linear Congruence & Related Ideas  
+  https://drken1215.hatenablog.com/entry/2020/05/04/190252
+
+---
+
+## 🧩 Data Structures & Algorithms
+
+- Weighted DSU (Dr. Ken)  
+  https://qiita.com/drken/items/cce6fc5c579051e64fab
+
+- Permutations for Beginners  
+  https://nor-blog.pages.dev/posts/2023-01-09-permutations-for-beginners/
+
+- Linear Sieve  
+  https://rsk0315.github.io/library-rs/nekolib/math/struct.LinearSieve.html  
+  https://atcoder.jp/contests/abc254/editorial/4079
+
+---
+
+## 📈 Advanced Techniques
+
+- Formal Power Series (FPS)  
+  https://maspypy.com/category/%e5%bd%a2%e5%bc%8f%e7%9a%84%e3%81%b9%e3%81%8d%e7%b4%9a%e6%95%b0%e8%a7%a3%e8%aa%ac
+
+- Skyline / Dominance Technique  
   https://leetcode.com/problems/number-of-visible-people-in-a-queue/
-7) For partial sum dp or reachability dp, refer to this article:
+
+- Reachability / Partial Sum DP  
   https://qiita.com/drken/items/a5e6fe22863b7992efdb
-8) For Pigeonhole Principle: https://youtu.be/O3krHAFyxH4?si=8d3Q2UUUJb6zN3i0
-9) https://drken1215.hatenablog.com/entry/2020/05/04/190252
 
+---
 
+## 📝 Notes
 
+- Wavelet Trees appear rarely and usually as an alternate approach  
+- FPS and Linear Congruence require multiple passes to fully internalize  
+- Most Brown problems reduce to **invariants + dominance + greedy exchange**
 
+---
 
-  
+⭐ If this repository helped you, consider starring it.
