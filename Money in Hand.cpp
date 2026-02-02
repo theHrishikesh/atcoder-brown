@@ -1155,3 +1155,16 @@ int main()
         out("No");
     }
 }
+
+// int main()
+// {
+//     sll(n,x);
+//     bitset<10001>bs;
+//     bs.set(0);
+//     rep(n)
+//     {
+//         sll(a,b);
+//         rep(b) bs |= (bs << a);
+//     }
+//     out(bs[x] ? "Yes" : "No");
+// }
