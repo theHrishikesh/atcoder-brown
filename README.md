@@ -1,4 +1,4 @@
-# 📘 Concepts Needed to Crack **Brown Problems**
+# Concepts Needed to Crack **Brown Problems**
 
 This repository documents the **algorithms, mathematical tools, data structures, and heuristics**
 that repeatedly appeared while solving **Brown-level competitive programming problems**.
@@ -7,7 +7,7 @@ Think of this as a **revision checklist + concept index**, not a linear syllabus
 
 ---
 
-## 🧠 Core Mathematical & Logical Tools
+## Core Mathematical & Logical Tools
 
 1. Floor / Ceil / Absolute Value Inequality Translation  
 2. Pigeonhole Principle  
@@ -18,7 +18,7 @@ Think of this as a **revision checklist + concept index**, not a linear syllabus
 
 ---
 
-## 🔍 Search & Enumeration Techniques
+## Search & Enumeration Techniques
 
 7. Binary Search on Beatty-type Sequences  
 8. Bit Enumeration  
@@ -26,7 +26,7 @@ Think of this as a **revision checklist + concept index**, not a linear syllabus
 
 ---
 
-## 📐 Dynamic Programming (DP)
+## Dynamic Programming (DP)
 
 10. DP on DAG  
 11. Subsequence DP *(Pascal’s Triangle intuition)*  
@@ -37,14 +37,14 @@ Think of this as a **revision checklist + concept index**, not a linear syllabus
 
 ---
 
-## 🌳 Graph Algorithms
+## Graph Algorithms
 
 14. DFS / BFS / Dijkstra  
 15. Topological Sort (Kahn’s Algorithm)
 
 ---
 
-## 🧮 Number Theory & Precomputation
+## Number Theory & Precomputation
 
 16. Sieve of Eratosthenes  
 17. Linear Sieve  
@@ -52,7 +52,7 @@ Think of this as a **revision checklist + concept index**, not a linear syllabus
 
 ---
 
-## 🧰 Data Structures
+## Data Structures
 
 19. DSU (Disjoint Set Union)  
 20. Weighted DSU  
@@ -65,7 +65,7 @@ Think of this as a **revision checklist + concept index**, not a linear syllabus
 
 ---
 
-## 📊 Classical Algorithmic Patterns
+## Classical Algorithmic Patterns
 
 27. Largest Area in Histogram  
 28. Skyline / Dominance Technique  
@@ -76,7 +76,7 @@ Think of this as a **revision checklist + concept index**, not a linear syllabus
 
 ---
 
-## 🧭 Universal Problem-Solving Heuristic
+## Universal Problem-Solving Heuristic
 
 > **Express local constraints in terms of invariants,  
 > then connect them to global constraints.**
@@ -85,9 +85,9 @@ This idea explains why many seemingly ad-hoc solutions work.
 
 ---
 
-# 📚 Important Resources
+# Important Resources
 
-## 📐 Mathematics & Theory
+## Mathematics & Theory
 
 - Competitive Programming Math Concepts  
   https://manabitimes.jp/math
@@ -100,7 +100,7 @@ This idea explains why many seemingly ad-hoc solutions work.
 
 ---
 
-## 🧩 Data Structures & Algorithms
+## Data Structures & Algorithms
 
 - Weighted DSU (Dr. Ken)  
   https://qiita.com/drken/items/cce6fc5c579051e64fab
@@ -114,7 +114,7 @@ This idea explains why many seemingly ad-hoc solutions work.
 
 ---
 
-## 📈 Advanced Techniques
+## Advanced Techniques
 
 - Formal Power Series (FPS)  
   https://maspypy.com/category/%e5%bd%a2%e5%bc%8f%e7%9a%84%e3%81%b9%e3%81%8d%e7%b4%9a%e6%95%b0%e8%a7%a3%e8%aa%ac
@@ -127,12 +127,10 @@ This idea explains why many seemingly ad-hoc solutions work.
 
 ---
 
-## 📝 Notes
+## Notes
 
 - Wavelet Trees appear rarely and usually as an alternate approach  
 - FPS and Linear Congruence require multiple passes to fully internalize  
 - Most Brown problems reduce to **invariants + dominance + greedy exchange**
 
 ---
-
-⭐ If this repository helped you, consider starring it.
