@@ -45,6 +45,7 @@ freopen((s + ".out").c_str(), "w", stdout);
 #define rev(vec) reverse(vec.begin(), vec.end())
 #define elif else if
 #define pb push_back
+#define pf push_front
 #define eb emplace_back
 #define lexi lexicographical_compare
 #define Test int testing; cin >> testing; while(testing--)
@@ -1184,47 +1185,21 @@ mint nCr(ll n, ll r) {
 int main()
 {
     sstr(s);
-    deque<char>d;
-    each(c,s)
-    {
-        d.pb(c);
-    }
+    deque<char>d; each(c,s) d.pb(c);
+    
     sll(q);
     bool rev = 0;
     rep(q)
     {
         sll(t);
-        if (t == 1)
-        {
-            rev ^= 1;
-        }
+        if (t == 1) rev ^= 1;
         else
         {
-            sll(f);f--;
+            sll(f);
             sch(c);
-            if (f == 0 && rev == 0)
-            {
-                d.push_front(c);
-            }
-            elif (f == 0 && rev == 1)
-            {
-                d.push_back(c);
-            }
-            elif (f == 1 && rev == 1)
-            {
-                d.push_front(c);
-            }
-            else
-            {
-                d.push_back(c);
-            }
+            (((f - 1) ^ rev) ? d.pb(c) : d.pf(c));
         }
     }
-    string ans = "";
-    each(c,d) ans += c;
-    if (rev)
-    {
-        reverse(all(ans));
-    }
-    out(ans);
+    if (rev) reverse(all(d));
+    each(c,d) cout << c;
 }
