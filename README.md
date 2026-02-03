@@ -102,6 +102,9 @@ This idea explains why many seemingly ad-hoc solutions work.
 
 ## Data Structures & Algorithms
 
+- DSU
+  https://youtu.be/1Z6uc5gwMrI?si=POL_zYDYp0sD5m5z
+  
 - Weighted DSU (Dr. Ken)  
   https://qiita.com/drken/items/cce6fc5c579051e64fab
 
