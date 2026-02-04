@@ -1191,21 +1191,23 @@ int main()
     sll(h,w);
     vecs g(h);
     rep(h) in(g[i]);
-    string s = "snuke";
+    if (g[0][0] != 's')
+    {
+        out("No");
+        return 0;
+    }
 
     vch next(256);
-    next['s'] = 'n';
-    next['n'] = 'u';
-    next['u'] = 'k';
-    next['k'] = 'e';
-    next['e'] = 's';
+    rep(i,0,5)
+    {
+        next["snuke"[i]] = "snuke"[(i + 1) % 5];
+    }
 
     vvbl vis(h,vbl(w,0));
-    bool found = 0;
-    function<void(ll,ll)> dfs = [&](ll x, ll y) -> void
+    
+    function<bool(ll,ll)> dfs = [&](ll x, ll y) -> bool
     {
-        found |= (x == h - 1 && y == w - 1);
-        if (found) return;
+        if (x == h - 1 && y == w - 1) return;
         vis[x][y] = 1;
         rep(i,0,4)
         {
@@ -1213,20 +1215,9 @@ int main()
             ll dy = dy4[i];
             ll nx = x + dx;
             ll ny = y + dy;
-            if (0 <= nx && nx < h && 0 <= ny && ny < w && !vis[nx][ny] && g[nx][ny] == next[g[x][y]])
-            {
-                dfs(nx, ny);
-            }
+            if (0 <= nx && nx < h && 0 <= ny && ny < w && !vis[nx][ny] && g[nx][ny] == next[g[x][y]]) dfs(nx, ny);
         }
     };
-    dfs(0,0);
-    if (g[0][0] != 's')
-    {
-        out("No");
-        return 0;
-    }
-    else
-    {
-        (found ? out("Yes") : out("No"));
-    }
+    
+    (dfs(0,0) ? out("Yes") : out("No"));
 }
