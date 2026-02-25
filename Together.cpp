@@ -8,7 +8,6 @@ struct IoSetup {
         cerr << fixed << setprecision(15);
     }
 } iosetup;
-
 #ifdef LOCAL
 void setIO(const char* s) {
     freopen((string(s) + ".in").c_str(), "r", stdin);
