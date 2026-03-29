@@ -52,21 +52,21 @@ Think of this as a revision checklist + concept index, not a linear syllabus.
 
 ## Number Theory & Precomputation
 
-16. Sieve of Eratosthenes  
-17. Linear Sieve  (Optional)
-18. Formal Power Series (Optional)
+1. Sieve of Eratosthenes  
+2. Linear Sieve  (Optional)
+3. Formal Power Series (Optional)
 ---
 
 ## Data Structures
 
-19. DSU (Disjoint Set Union)  
-20. Weighted DSU  
-21. Fenwick Tree (BIT) – inversion counting  
-22. Merge Sort – inversion counting  
-23. Segment Tree  
-24. Lazy Segment Tree (optional)
-25. Order Statistics Tree (for C++ users ; policy based DS)
-26. Wavelet Tree *(appeared once; alternate approach availabe to solve such problems)*
+1. DSU (Disjoint Set Union)  
+2. Weighted DSU  
+3. Fenwick Tree (BIT) – inversion counting  
+4. Merge Sort – inversion counting  
+5. Segment Tree  
+6. Lazy Segment Tree (optional)
+7. Order Statistics Tree (for C++ users ; policy based DS)
+8. Wavelet Tree *(appeared once; alternate approach availabe to solve such problems)*
 
 ---
 
