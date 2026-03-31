@@ -1,4 +1,3 @@
-/*￥￥￥￥CodePoet￥￥￥￥*/
 #include<bits/stdc++.h>
 #include<ext/rope>
 #define pb push_back
@@ -9,6 +8,7 @@
 #define fi first
 #define se second
 #define lowbit(x) ((x)&-(x))
+
 //#define int long long
 using namespace std;
 using namespace __gnu_cxx;
