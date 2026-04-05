@@ -8,6 +8,7 @@ struct IoSetup {
         cerr << fixed << setprecision(15);
     }
 } iosetup;
+
 void setIO(string s)
 {
 freopen((s + ".in").c_str(), "r", stdin);
